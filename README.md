@@ -46,9 +46,6 @@
 ###set_vim/reset_vim
 
 
-###nvidia drivers
-- [352.21](http://www.geforce.com.tw/drivers/results/86416) 
-
 ###alias
 	memcheck='valgrind --leak-check=yes'
 	memcheckfull='valgrind --leak-check=full'
