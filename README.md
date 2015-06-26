@@ -7,10 +7,10 @@
 - [unity-tweak-tool](https://launchpad.net/unity-tweak-tool)
 - [classicmenu-indicator](http://www.florian-diesch.de/software/classicmenu-indicator/)
 - [synaptic](http://www.nongnu.org/synaptic/)
-  gcc
+- gcc
 - [shutter](http://shutter-project.org/)
 - [eclipse](http://eclipse.org/)
-  ssh
+- ssh
 - [filezilla](https://filezilla-project.org/)
 - [codeblocks](http://www.codeblocks.org/)
 - rar
