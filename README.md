@@ -7,8 +7,10 @@
 - [unity-tweak-tool](https://launchpad.net/unity-tweak-tool)
 - [classicmenu-indicator](http://www.florian-diesch.de/software/classicmenu-indicator/)
 - [synaptic](http://www.nongnu.org/synaptic/)
+  gcc
 - [shutter](http://shutter-project.org/)
 - [eclipse](http://eclipse.org/)
+  ssh
 - [filezilla](https://filezilla-project.org/)
 - [codeblocks](http://www.codeblocks.org/)
 - rar
@@ -17,14 +19,13 @@
 - [docky](http://wiki.go-docky.com/index.php?title=Welcome_to_the_Docky_wiki)
 - [kolourpaint4](http://kolourpaint.org/)
 - g++
-  gcc 
 - [dconf-editor](https://wiki.gnome.org/Projects/dconf)
 - [nautilus-open-terminal](https://github.com/GNOME/nautilus)
 - [enca](https://github.com/nijel/enca)
 - [terminator](https://launchpad.net/terminator)
 - [p7zip](http://www.7-zip.org/)
 - [livestreamer](http://docs.livestreamer.io)
-  ssh
+  
 
 ###not apt-get
 - [grub-customizer](https://launchpad.net/grub-customizer)
