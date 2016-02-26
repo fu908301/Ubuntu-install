@@ -33,6 +33,8 @@ update:
 	sudo apt-get -y install python-pip
 	sudo pip install livestreamer
 	sudo apt-get -y install openjdk-7-jdk
+	sudo apt-get -y install indicator-multiload
+	sudo apt-get -y install indicator-cpufreq
 
 grub-customizer:
 	sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
