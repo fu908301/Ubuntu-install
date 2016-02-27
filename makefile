@@ -18,13 +18,11 @@ update:
 	sudo apt-get -y install classicmenu-indicator
 	sudo apt-get -y install synaptic
 	sudo apt-get -y install shutter
-	sudo apt-get -y install eclipse
 	sudo apt-get -y install filezilla
 	sudo apt-get -y install codeblocks
 	sudo apt-get -y install rar
 	sudo apt-get -y install vlc
 	sudo apt-get -y install gconf-editor
-	sudo apt-get -y install docky
 	sudo apt-get -y install kolourpaint4
 	sudo apt-get -y install g++
 	sudo apt-get -y install dconf-editor
@@ -34,6 +32,7 @@ update:
 	sudo apt-get -y install p7zip-full
 	sudo apt-get -y install python-pip
 	sudo pip install livestreamer
+	sudo apt-get -y install openjdk-7-jdk
 
 grub-customizer:
 	sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
