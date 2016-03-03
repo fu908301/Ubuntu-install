@@ -36,6 +36,8 @@ update:
 	sudo apt-get -y install indicator-multiload
 	sudo apt-get -y install indicator-cpufreq
 
+VM-file-share:
+	sudo mount -t vboxsf share01 /home/yang/桌面/data/
 grub-customizer:
 	sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
 	sudo apt-get update
