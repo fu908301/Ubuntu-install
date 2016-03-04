@@ -34,7 +34,6 @@ update:
 	sudo pip install livestreamer
 	sudo apt-get -y install openjdk-7-jdk
 	sudo apt-get -y install indicator-multiload
-	sudo apt-get -y install indicator-cpufreq
 
 VM-file-share:
 	sudo mount -t vboxsf share01 /home/yang/桌面/data/
