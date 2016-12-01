@@ -3,7 +3,7 @@ all:
 help:
 	@echo "make install"
 
-install:update not-apt-get git_config
+install:update git_config
 
 not-apt-get: indicator-sound-switcher chrome remarkable autojump ubuntu-tweak
 
@@ -14,26 +14,20 @@ update:
 	sudo apt-get -y install git
 	sudo apt-get -y install vim-gtk
 	sudo apt-get -y install valgrind
-	sudo apt-get -y install unity-tweak-tool
 	sudo apt-get -y install classicmenu-indicator
 	sudo apt-get -y install synaptic
 	sudo apt-get -y install shutter
 	sudo apt-get -y install filezilla
-	sudo apt-get -y install codeblocks
 	sudo apt-get -y install rar
 	sudo apt-get -y install vlc
 	sudo apt-get -y install gconf-editor
 	sudo apt-get -y install kolourpaint4
 	sudo apt-get -y install g++
 	sudo apt-get -y install dconf-editor
-	sudo apt-get -y install nautilus-open-terminal
 	sudo apt-get -y install enca
-	sudo apt-get -y install terminator
 	sudo apt-get -y install p7zip-full
 	sudo apt-get -y install python-pip
-	sudo pip install livestreamer
-	sudo apt-get -y install openjdk-7-jdk
-	sudo apt-get -y install indicator-multiload
+	sudo apt-get -y install default-jdk
 
 VM-file-share:
 	sudo mount -t vboxsf share01 /home/yang/桌面/data/
@@ -48,12 +42,8 @@ indicator-sound-switcher:
 	sudo apt-get -y install indicator-sound-switcher
 
 chrome:
-	sudo apt-get install libxss1 libappindicator1 libindicator7
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-	sudo dpkg -i google-chrome-stable_current_amd64.deb
-	cp google-chrome-stable_current_amd64.deb ~/linux_install/
-	rm google-chrome-stable_current_amd64.deb
-	sudo sed -i '/Group\]\|Desktop Entry/a StartupWMClass=Google-chrome-stable' /usr/share/applications/google-chrome.desktop
+	sudo dpkg –i google-chrome-stable_current_amd64.deb
 
 dropbox:
 	cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
